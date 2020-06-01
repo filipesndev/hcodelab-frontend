@@ -20,7 +20,7 @@ export default () => {
     const handleFormSubmit = e => {
         e.preventDefault()
         
-        axios.post(`http://127.0.0.1:3333/users`, values).then(res => {
+        axios.post(`http://hcodelab-adonis.herpokuapp/users`, values).then(res => {
             alert(`deucerto!`)
             window.location.href=("/login")
         }).catch( err => console.log('deu ruim'))

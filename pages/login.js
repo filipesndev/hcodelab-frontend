@@ -23,7 +23,7 @@ export default () => {
     const handleFormSubmit = e => {
         e.preventDefault()
         
-        axios.post(`http://127.0.0.1:3333/auths`, values)
+        axios.post(`http://hcodelab-adonis.herpokuapp/auths`, values)
         .then(
             (res) => {
                 const tokenData = res.data.token
