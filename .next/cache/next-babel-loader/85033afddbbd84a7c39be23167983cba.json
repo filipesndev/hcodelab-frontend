@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport styles from './HeaderTitle.module.css';\nexport default function HeaderTitle(props) {\n  return __jsx(\"h1\", {\n    id: styles.title\n  }, props.text);\n}","map":null,"metadata":{},"sourceType":"module"}

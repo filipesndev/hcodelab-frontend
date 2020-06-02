@@ -1,0 +1,1 @@
+{"ast":null,"code":"const LinkItem = [{\n  id: 1,\n  link: '/',\n  label: 'Home'\n}, {\n  id: 2,\n  link: '/our-history',\n  label: 'História'\n}, {\n  id: 3,\n  link: '/gallery',\n  label: 'Galeria'\n}, {\n  id: 4,\n  link: '/contact',\n  label: 'Contato'\n}];\nexport default LinkItem;","map":null,"metadata":{},"sourceType":"module"}
