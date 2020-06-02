@@ -1,7 +1,7 @@
 #__next {
     flex-direction: column;
 }
-
+  
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
